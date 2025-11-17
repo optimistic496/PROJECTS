@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+       name="viewport"
+       content="width=device-width, initial-scale=1.0" />
+    <title>Web Development Cohort</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <h1>Web Development Cohort</h1>
+    <p> Your path to becoming a fullstack developer</p>
+    <form>
+        <div>
+            <h2>User INfo</h2>
+            <label for="fullname">Fullname:</label>
+        <input type="text" id="fullname" name="fullname" placeholder="enter your fullname">
+        <br>
+        <label for="password">Password:</label>
+        <input type="password" id="password" placeholder="enter your password" maxlength="20">
+        <br>
+        </div>
+    <div>
+        <h2>Account type</h2>
+        <input type="radio" id="basic" name="account type">
+        <label for="basic">Basic</label>
+        <br>
+        <input type="radio" id="premium" name="account type">
+        <label for="premium">Premium</label>
+        <br>
+    </div>
+    <div>
+        <h3>Skills</h3>
+        <input type="checkbox" id="html" name="skills">
+        <label for="html">HTML</label>
+        <br>
+        <input type="checkbox" id="css" name="skills">
+        <label for="css">CSS</label>
+        <br>
+        <input type="checkbox" id="js" name="skills">
+        <label for="js">JS</label>
+        <br>
+    </div>
+    <div>
+        <h3>Experience Level</h3>
+        <select name="experience level">
+            <option value="Beginner">Beginner</option>
+            <option value="intermediate">Intermediate</option>
+            <option value="Advanced">Advanced</option>
+        </select>
+    </div>
+    <div>
+        <br>
+        <button type="submit">Register</button>
+        <button type="reset"> Clear</button>
+    </div>
+
+    </form>
+  </body>
+</html>
